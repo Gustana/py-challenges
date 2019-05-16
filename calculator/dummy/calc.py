@@ -31,7 +31,6 @@ def result() :
     entry3.insert(0, str(result))
 
 entry1 = tkinter.Entry(root)
-entry1.grid()
 
 operation = tkinter.Label(root, textvariable = opr)
 operation.grid()
@@ -40,7 +39,6 @@ entry2 = tkinter.Entry(root)
 entry2.grid()
 
 entry3 = tkinter.Entry(root)
-entry3.grid()
 
 tkinter.Button(root, text="1", command = lambda:insertText("1")).grid(column=1, row=1, padx = 5, pady = 20)
 tkinter.Button(root, text="2", command = lambda:insertText("2")).grid(column=2, row=1, padx = 5, pady = 20)
