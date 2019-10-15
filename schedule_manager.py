@@ -13,5 +13,3 @@ def createSchedule() :
     scheduleList[day].append(schedule)
 
 createSchedule()
-
-sdfdsfadknk
