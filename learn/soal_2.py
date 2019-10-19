@@ -1,6 +1,3 @@
-n = int(input("masukkan n :"))
-r = int(input("masukkan r :"))
-
 def countFactorial(num) :
     angka = num
     result = 1
@@ -8,6 +5,9 @@ def countFactorial(num) :
         result *=angka
         angka-=1
     return result
+
+n = int(input("masukkan n :"))
+r = int(input("masukkan r :"))
 
 factorial_n = countFactorial(n)
 factorial_r = countFactorial(r)
